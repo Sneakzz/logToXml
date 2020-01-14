@@ -13,7 +13,7 @@ factoryConfiguration.json
 *.class
 
 # Log file
-*.log
+#*.log
 
 # BlueJ files
 *.ctxt
