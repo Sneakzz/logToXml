@@ -1,6 +1,6 @@
 package main;
 
-import controllers.Controller;
+import controllers.MainController;
 import java.util.Scanner;
 import views.ConsoleUI;
 
@@ -14,8 +14,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ConsoleUI ui = new ConsoleUI(scanner);
-        Controller controller = new Controller(ui);
+        MainController mainController = new MainController(ui);
 
-        controller.run();
+        mainController.run();
     }
 }
