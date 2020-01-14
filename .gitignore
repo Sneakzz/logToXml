@@ -1,6 +1,12 @@
+# Created by https://www.gitignore.io/api/java,java-web,netbeans,code-java
+# Edit at https://www.gitignore.io/?templates=java,java-web,netbeans,code-java
 
-# Created by https://www.gitignore.io/api/java,netbeans
-# Edit at https://www.gitignore.io/?templates=java,netbeans
+### Code-Java ###
+# Language Support for Java(TM) by Red Hat extension for Visual Studio Code - https://marketplace.visualstudio.com/items?itemName=redhat.java
+
+.project
+.classpath
+factoryConfiguration.json
 
 ### Java ###
 # Compiled class file
@@ -27,6 +33,10 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+### Java-Web ###
+## ignoring target file
+target/
+
 ### NetBeans ###
 **/nbproject/private/
 **/nbproject/Makefile-*.mk
@@ -37,4 +47,4 @@ dist/
 nbdist/
 .nb-gradle/
 
-# End of https://www.gitignore.io/api/java,netbeans
+# End of https://www.gitignore.io/api/java,java-web,netbeans,code-java
