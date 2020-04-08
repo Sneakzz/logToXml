@@ -45,7 +45,7 @@ public class FileParser {
 
             // start reading the file
             while ((currentLine = this.br.readLine()) != null) {
-                readLength += currentLine.getBytes().length;
+                readLength += (currentLine + "\r\n").getBytes().length;
                 System.out.print("\rprogress parsing: " + updateProgress(readLength, fileLength) + "%");
 
                 // send the read line to be parsed
